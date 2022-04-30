@@ -127,7 +127,7 @@ We represent the specific route that each CRUD function will follow in this file
 
 4) The 'USE' feature of express is used to execute the function once it's needed.
 
-5) We use call CORS function, as it fixes the CORS bug.
+5) We call CORS function, as it fixes the CORS bug.
 
 6) We include our Route in the app.use(), so it executes the functions once it's needed.
 
