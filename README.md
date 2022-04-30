@@ -63,7 +63,7 @@ Use 'npm start' to run the react app.
 
 There is a "db.js" file in this folder that is used to connect to the newly formed mongoDB database. The underlined yellow text contains the connection message. A dotenv file is used to hold the URI and PORT. Over and above that, if any error occurs it will be called in the terminal.
 
-**2) Model (SCHEMA):**
+**2) Modal (SCHEMA):**
 
 The database schema is stored in the'menuModal.js' file in the modal subdirectory. Mongoose is used to connect to the MongoDB database. The schema of our database is divided into four sections.
 
