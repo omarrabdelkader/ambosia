@@ -31,16 +31,16 @@ C) Recipe
 
 D) Image (URL)
 
-After you've filled the fields, simply hit the submit button. As a result, you may submit all of the data to our database. When the database gets your information, it checks to see if your recipe has already been submitted. If it isn't already in the database, it will be added. Also, you can check it in our 'Out-Look' section, it will represented there.
+After you've filled the fields, simply hit the submit button. As a result, you may submit all of the data to our database. When the database gets your information, it checks to see if your recipe has already been submitted before. If it isn't already in the database, it will be added. Also, you can check it in our 'Out-Look' section, it will be represented there.
 
 
 **3) Out-Look (Menu):**
 
-We assume you have clicked on the 'Menu' button, it will take you to the Out-Look/Menu's section. In this section, we represent all of our recipes. A menu container with two arrow buttons is available. If you click on one of them, it will lead you to the previous or next page, where you may thoroughly examine our menu. Each recipe also has a check and cross icon. If you click the cross-icon, the recipe will be deleted right away. If you click the check-icon, on the other hand, you'll be sent to a page where you can examine the recipe and get all the information you need.
+We assume you have clicked on the 'Menu' button, it will take you to the Out-Look/Menu's section. In this section, we represent all of our recipes. A menu container with two arrow-buttons is available. If you click on one of them, it will lead you to the previous or next page, where you may thoroughly examine our menu. Each recipe also has a check and cross icon. If you click the cross-icon, the recipe will be deleted right away. If you click the check-icon, on the other hand, you'll be sent to a page where you can examine the recipe and get all the information you need.
 
 **4) Recipe - Information:**
 
-In this section, you'll find all the information you'll need to prepare your chosen dish. In addition, if a customer want to delete this recipe, there is a cross-icon where you may do so. On the other side, there is an edit-icon that allows a client to change any information that he deems undesirable.
+In this section, you'll find all the information you'll need to prepare your chosen dish. In addition, if a customer want to delete this recipe, there is a cross-icon by the end of the page where you may do so. On the other side, there is an edit-icon that allows a client to change any information that he deems undesirable.
 
 
 **How to run the project?**
@@ -51,7 +51,7 @@ A) react-icons (v 4.3.1)
 
 B) react-router-dom (v. 6.3.0)
 
-
+Use 'npm start' to run the react app.
 
 -------------
 
@@ -61,7 +61,7 @@ B) react-router-dom (v. 6.3.0)
 
 **1) CONFIG:**
 
-There is a "db.js" file in this folder that is used to connect to the newly formed mongoDB database. The underlined yellow text contains the connection message. A dotenv file is used to hold the URI. Over and above that, if any error occurs it will be called in the terminal.
+There is a "db.js" file in this folder that is used to connect to the newly formed mongoDB database. The underlined yellow text contains the connection message. A dotenv file is used to hold the URI and PORT. Over and above that, if any error occurs it will be called in the terminal.
 
 **2) Model (SCHEMA):**
 
