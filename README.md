@@ -125,11 +125,11 @@ We represent the specific route that each CRUD function will follow in this file
 
 3) We call the config mongoDB database.
 
-4) The 'USE' feature of express is used to excaute the function once it's needed.
+4) The 'USE' feature of express is used to execute the function once it's needed.
 
 5) We use call CORS function, as it fixes the CORS bug.
 
-6) We include our Route in the app.use(), so it excuates the functions once it's needed.
+6) We include our Route in the app.use(), so it executes the functions once it's needed.
 
 **How to run the project?**
 
