@@ -53,6 +53,9 @@ B) react-router-dom (v. 6.3.0)
 
 Use 'npm start' to run the react app.
 
+**Note** 
+You will have to 'npm i bootstrap'.
+
 -------------
 
 
