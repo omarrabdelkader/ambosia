@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-      <section className="img-p">
+      <section className="home-img-p">
         <img
           className="first-img"
           src="https://i.ibb.co/KXF72rW/eiliv-sonas-aceron-Zu-IDLSz3-XLg-unsplash.jpg"
@@ -30,10 +30,10 @@ function Home() {
           {/* <Link to='/' type="button" className="btn btn-outline-dark btn-started">Get started</Link> */}
         </div>
       </section>
-      <section className="img-p">
+      <section className="home-img-p">
         <div className="get-started">
           <h3>Create your own recipe</h3>
-          <p className="view-p">
+          <p className="createRecipe-p">
             You can make your own recipe while you're entertaining your guests.
             Furthermore, you have complete control over every aspect of your
             food. Depending on your mood, you may select whatever you like. If
@@ -69,7 +69,7 @@ function Home() {
             src="https://i.ibb.co/NYwvqQ7/monika-grabkowska-P1aohbi-T-EY-unsplash.jpg"
             alt=""
           />
-          <p className="view-p">
+          <p className="createRecipe-p">
             You can go through our menu because there is a lot of information
             there. So, what exactly are you waiting for? Today is your chance to
             try out a new dish.
