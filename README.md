@@ -12,7 +12,7 @@ Ambosia is a website that allows customers to make their own recipes. In additio
 
 **FRONT-END**
 
--Home Page: Our home page consists of three parts.
+Home Page: Our home page consists of three parts.
 
 1) Description of our website: 
 
