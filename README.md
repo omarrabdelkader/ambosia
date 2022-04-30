@@ -3,6 +3,11 @@
 Ambosia is a website that allows customers to make their own recipes. In addition, customers will be able to try new recipes from our menu. Ambosia assists our clients in eating nutritious foods in order to improve their lifestyles. There are several features on our website that they may use to assist our clients. We'll go through that in more depth later.
 
 
+
+----------------
+
+
+
 **Representation of our website**
 
 **FRONT-END**
@@ -48,16 +53,17 @@ B) react-router-dom (v. 6.3.0)
 
 
 
-
 -------------
+
+
 
 **BACK-END**
 
-**CONFIG:**
+**1) CONFIG:**
 
 There is a "db.js" file in this folder that is used to connect to the newly formed mongoDB database. The underlined yellow text contains the connection message. A dotenv file is used to hold the URI. Over and above that, if any error occurs it will be called in the terminal.
 
-**Model (SCHEMA):**
+**2) Model (SCHEMA):**
 
 The database schema is stored in the'menuModal.js' file in the modal subdirectory. Mongoose is used to connect to the MongoDB database. The schema of our database is divided into four sections.
 
@@ -71,7 +77,8 @@ B) img: A string-typed title, and it's required.
 
 Our schema is exported to our controller folder.
 
-**Controller:**
+
+**3) Controller:**
 
 In the 'controller.js' file, we represent how our backend functions.
 
@@ -94,7 +101,9 @@ D) deleteMenu (DELETE METHOD): In this function, it deletes the requested item t
 
 Note: We export all these functions to the Route.js file.
 
-**ROUTER**
+
+
+**4) ROUTER**
 
 We represent the specific route that each CRUD function will follow in this file.
 
@@ -106,7 +115,9 @@ We represent the specific route that each CRUD function will follow in this file
 
 -Note: We export variable router to our main Server.js file.
 
-**SERVER**
+
+
+**5) SERVER**
 
 1) We import "express" so that we may take use of its features.
 
