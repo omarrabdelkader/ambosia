@@ -134,12 +134,12 @@ We represent the specific route that each CRUD function will follow in this file
 **How to run the project?**
 
 Dependencies:
-A)  colors: "^1.4.0",
-B)  cors: "^2.8.5",
-C)  dotenv: "^16.0.0",
-D)  express: "^4.17.3",
-E)  express-async-handler: "^1.2.0",
-F)  mongoose: "^6.3.1",
+A)  colors: "^1.4.0"
+B)  cors: "^2.8.5"
+C)  dotenv: "^16.0.0"
+D)  express: "^4.17.3"
+E)  express-async-handler: "^1.2.0"
+F)  mongoose: "^6.3.1"
 G)  nodemon: "^2.0.15"
 
 Use 'npm run server' to connect to the backend server.
