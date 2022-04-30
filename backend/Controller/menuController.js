@@ -1,6 +1,11 @@
 const asynchandler = require("express-async-handler");
 const Menu = require("../Model/menuModel");
 
+
+// @desc    Create a new recipe
+// @route   POST /api/menu
+// @access  Public
+
 const setMenu = asynchandler(async (req, res) => {
   const { title, ingredient, recipe, img } = req.body;
   if (!title | !ingredient | !recipe | !img) {
@@ -28,6 +33,10 @@ const setMenu = asynchandler(async (req, res) => {
   }
 });
 
+// @desc    Get menu data
+// @route   GET /api/menu/menuinfo
+// @access  Public
+
 const getMenu = asynchandler(async (req, res) => {
   const menus = await Menu.find();
   res.status(201).json(menus);
@@ -39,12 +48,20 @@ const getMenuById = asynchandler(async (req, res) => {
   res.status(201).json(menus);
 });
 
+// @desc    Update menu
+// @route   PUT /api/menu/:id
+// @access  Public
+
 const updateMenu = asynchandler(async (req, res) => {
   const updated = await Menu.findOneAndUpdate(req.params.id, req.body, {
     new: true
 })
 res.status(200).json(updated)
 });
+
+// @desc    Delete menu
+// @route   DELETE /api/menu/:id
+// @access  Public
 
 const deleteMenu = asynchandler(async (req, res) => {
   const deleted = await Menu.deleteOne({_id: req.params.id});
