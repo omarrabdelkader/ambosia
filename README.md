@@ -14,7 +14,7 @@ Ambosia is a website that allows customers to make their own recipes. In additio
 
 Home Page: Our home page consists of three parts.
 
-1) Description of our website: 
+**1) Description of our website:** 
 
 This section explains what our website offers to our customers and how it may help them improve their life.
 
